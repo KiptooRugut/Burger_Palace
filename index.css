@@ -45,7 +45,7 @@
     background-color: clear;
     text-decoration: none;
   }
-  body {
+body {
     background-image: url(images/White-yellow.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -73,5 +73,6 @@
     font-weight: bold;
     background-color: orange; 
 }
+
 
 
