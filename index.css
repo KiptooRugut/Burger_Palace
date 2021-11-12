@@ -1,0 +1,22 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+  }
+  .logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .logo__img {
+    height: 60px;
+  }
+  .logo__name {
+    font-size: 40px;
+    float: left;
+    padding-right:20px;
+  }
+  span{
+      color: orange;
+  }
