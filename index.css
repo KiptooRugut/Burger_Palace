@@ -50,5 +50,28 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+.city{
+    float: right;
+    padding-right: 300px;
+}
+.section__heading{
+    font-size: 60px;
+    padding-left: 30px;
+    padding-top: 200px;
+}
+.section_main p{
+    font-size: 30px;
+    padding-left: 30px;
+    margin-bottom: 100px;
+}
+.order{
+    font-size: 20px;
+    margin: 30px 100px;
+    border-radius: 20px 20px 0px 20px;
+    padding: 20px;
+    color:white;
+    font-weight: bold;
+    background-color: orange; 
+}
 
 
