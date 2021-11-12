@@ -20,3 +20,35 @@
   span{
       color: orange;
   }
+  .navbar {
+    display: flex;
+    top: 0px;
+    justify-content: space-between;
+    float: right;
+    background-color:rgba(0, 0, 0, 0.315);
+    width: 50%;
+    margin-top: -5%;
+  }
+  .nav_item {
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+  }
+  .nav_item1 {
+    font-size: 35px;
+    font-weight: bold;
+    color: orange;
+    text-decoration: none;
+  }
+  .nav_item5 {
+    border: 1px solid orange;
+    background-color: clear;
+    text-decoration: none;
+  }
+  body {
+    background-image: url(images/White-yellow.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
