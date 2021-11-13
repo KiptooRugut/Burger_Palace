@@ -47,6 +47,7 @@
   }
 body {
     background-image: url(images/White-yellow.png);
+    background-size: 400px;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -82,7 +83,8 @@ body {
     row-gap: 50px;
     flex-wrap: wrap;
     background-color: whitesmoke;
-    margin-bottom: 200px;
+    padding-top: 300px;
+    padding-bottom: 150px;
   }
   .service {
     width: 400px;
@@ -108,5 +110,50 @@ body {
   .service__desc {
     font-size: 20px;
   }
-
-
+  .our_menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    column-gap: 5px;
+    row-gap: 30px;
+    padding-top: 50px;
+    padding-bottom: 200px;
+  }
+  .our_menu h1{
+      font-size: 40px;
+      text-align: center;
+      letter-spacing: 2px;
+  }
+  .double1{
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  width: 400px;
+  text-align: center;
+  border-radius: 40px;
+  box-shadow: 1px 10px 14px 0px rgba(0, 0, 0, 0.55);
+  }
+  .double1 h1{
+    font-size: 35px;
+    color: darkred;
+  }
+  .double1 h3{
+  font-size: 30px;
+  }
+  .cart{
+  width: 40px;
+  border: 1px solid honeydew;
+  background-color: lightgray;
+  padding: 20px;
+  border-radius: 20px;
+  float: right;
+  }
+  .cart1{
+  width: 120px;
+  height: 60px;
+  border-radius: 15px;
+  letter-spacing: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  float: right;
+  }
