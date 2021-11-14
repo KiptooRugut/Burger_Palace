@@ -46,7 +46,6 @@
     text-decoration: none;
   }
 body {
-    background-image: url(images/White-yellow.png);
     background-size: 400px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -60,6 +59,14 @@ body {
     font-size: 60px;
     padding-left: 30px;
     padding-top: 200px;
+}
+.section_main{
+  background-image: url(images/White-yellow.png);
+  /* background-position-x: 600px;
+  background-position-y: 0px; */
+  background-repeat: no-repeat;
+  background-position: 600px;
+  margin-top: -100px;
 }
 .section_main p{
     font-size: 30px;
@@ -82,7 +89,7 @@ body {
     column-gap: 10px;
     row-gap: 50px;
     flex-wrap: wrap;
-    background-color: whitesmoke;
+    background-color: lightcyan;
     padding-top: 300px;
     padding-bottom: 150px;
   }
@@ -157,3 +164,29 @@ body {
   font-weight: bold;
   float: right;
   }
+  .double_decker{
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/double-check2.png);
+    /* background-image: url(images/double-check1.png); */
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 550px;
+    background-position-y: 200px;
+    background-position-x: 1200px;
+    background-color: lightcyan;
+    padding-right: 150px;    
+}
+.decker_heading{
+    font-size: 35px;
+    padding-left: 150px;
+    padding-top: 300px;   
+}
+.decker_heading p{
+    font-size: 24px;
+    padding-top: 100px;
+}
+.deckpic{
+  float: right;
+  margin-top: -400px;
+}
