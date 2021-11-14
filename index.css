@@ -190,3 +190,29 @@ body {
   float: right;
   margin-top: -400px;
 }
+.closing{
+  background-color: orange;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  padding-top: 250px;
+  padding-bottom: 150px;
+}
+.phones{
+  /* display: flex;
+  justify-content: space-evenly; */
+  flex-direction: column;
+  padding-top: 50px;
+  padding-right: 100px;
+}
+.appstore{
+  padding-top: 400px;
+  padding-left: 20px;
+  position:absolute;
+}
+.closing p{
+  font-size: 50px;
+  font-weight: bold;
+  padding-left: 20px;
+}
